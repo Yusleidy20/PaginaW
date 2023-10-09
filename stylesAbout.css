@@ -1,0 +1,57 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    background-color: black; /* Fondo negro */
+    color: #000; /* Texto en negro */
+    font-family: Arial, sans-serif; /* Tipo de fuente */
+    padding: 20px; /* Espaciado interior */
+    margin: 0;
+}
+
+/* Estilos para el encabezado */
+@font-face {
+    font-family: fuente_1;
+    src: url(Tipografia/Baby.otf);
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #ff279e; /* Fondo rosa para el encabezado */
+    padding: 10px;
+    text-align: center;
+    font-family: fuente_1;
+    font-size: 30px;
+    
+    
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Estilo para el contenedor */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* Establece el contenedor al alto de la ventana */
+}
+
+/* Estilos para el cuadro redondeado */
+.rounded-box {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con transparencia */
+    color: #000; /* Texto en negro */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interior */
+    max-width: 400px; /* Ancho máximo del cuadro */
+    text-align: justify; /* Alineación justificada del texto */
+}
+
+/* Estilo para el título */
+h1 {
+    font-size: 24px; /* Tamaño de fuente para el título */
+    text-align: center;
+    margin-bottom: 20px; /* Espacio inferior */
+}
