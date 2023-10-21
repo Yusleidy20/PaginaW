@@ -36,11 +36,6 @@ miImagen.addEventListener("mouseleave", () => {
     miImagen.src = "img/Yusleidy2.png"; // Restaura la imagen al quitar el mouse
 });
 
-// Deshabilitar clic derecho del ratón
-document.addEventListener('contextmenu', function (e) {
-    e.preventDefault();
-});
-
 // Deshabilitar la capacidad de copiar mediante el teclado
 document.addEventListener('keydown', function (e) {
     // Combinaciones de teclas comunes para copiar (Ctrl+C, Cmd+C)
